@@ -1,5 +1,7 @@
+```
 mermaid
 flowchart TD
-    Start([User accesses application]) --> Auth{Authenticated?}
-    Auth -->|No| Public[Public area]
-    Auth -->|Yes| Dashboard[Administrative Dashboard]
+    Start([Usuario accede]) --> Auth{¿Autenticado?}
+    Auth -->|No| Public[Área pública]
+    Auth -->|Sí| Dashboard[Panel administrativo]
+```
